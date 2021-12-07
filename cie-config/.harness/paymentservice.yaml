@@ -157,7 +157,8 @@ pipeline:
                             - AllErrors
                         action:
                             type: StageRollback
-              variables:
-                  - name: seusername
-                    type: String
-                    value: <+input>
+              variables: []
+    variables:
+        - name: seusername
+          type: String
+          value: <+input>
